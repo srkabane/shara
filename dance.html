@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title> The Last Experience</title>
+
+
+
+<script>
+
+if (window.location.href.indexOf("fullcpgrid") > -1) {
+	document.addEventListener('DOMContentLoaded', function() {
+		const original = document.createElement('iframe');
+		original.style.display = 'none';
+		document.body.appendChild(original);
+		window.requestAnimationFrame = original.contentWindow.requestAnimationFrame;
+	}, false);
+}
+</script><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<canvas></canvas>
+<!-- <canvas></canvas> -->
+<div class="sun"></div>
+<footer>
+    <p>Interactive Robot Playground - Explore the nature!</p>
+</footer>
+  <script  src="./script.js"></script>
+
+</body>
+</html>
+
+
