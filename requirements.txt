@@ -1,0 +1,15 @@
+pyttsx3             # Text-to-speech conversion
+speech_recognition  # Speech recognition functionality
+requests            # HTTP requests
+python-dotenv       # Load environment variables
+pyjokes             # Jokes library
+pyautogui           # GUI automation
+groq                # Groq API client
+beautifulsoup4      # HTML parsing
+psutil              # System monitoring
+IMDbPY              # IMDb API client
+GoogleNews          # Google News API client
+pandas              # Data manipulation
+opencv-python       # Computer vision
+wikipedia           # Wikipedia API client
+pywhatkit           # WhatsApp messaging and YouTube functionality
